@@ -38,6 +38,11 @@ def index():
     # In a production app, you'd cache this in memory or a database to avoid hitting the API on every page load
     events = fetch_and_store_events()
     return render_template('index.html', events=events)
+# --- Add this new route ---
+@app.route('/health')
+def health_check():
+    return "OK", 200
+# --------------------------
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=80)
