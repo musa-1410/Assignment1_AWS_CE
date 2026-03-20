@@ -20,7 +20,7 @@ This project implements a highly available, fault-tolerant, and secure web appli
 ## 📂 Repository Structure
 Ensure your GitHub repository (`Assignment1_AWS_CE`) is set to **Public** and structured exactly as follows:
 
-```text
+
 Assignment1_AWS_CE/
 │
 ├── templates/
